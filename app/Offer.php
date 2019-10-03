@@ -11,17 +11,17 @@ class Offer extends Model
 { 
     public function categories()
     {
-        return $this->hasOne(Category::class,'id_category');
+        return $this->belongsTo(Category::class,'id_category');
     }
 
     public function cities()
     {
-        return $this->hasOne(City::class,'id_city');
+        return $this->belongsTo(City::class,'id_city');
     }
 
     public function users()
     {
-        return $this->hasMany(User::class,'user_id');
+        return $this->belongsTo(User::class,'user_id');
     }
 
     // /**
