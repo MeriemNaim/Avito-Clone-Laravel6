@@ -42,13 +42,6 @@
     </div>
 <!-- *******************city************** -->
 </div>
-
-
-
-
-
-
-
       <div>
  
               <h6>choose at least 4 images</h6>

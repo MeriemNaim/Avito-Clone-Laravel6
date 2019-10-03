@@ -1,4 +1,4 @@
-<div class="bg-image container text-center p-3 mt-3 border well" >
+<div class="bg-image container text-center p-3 mt-3 border bg-info" >
 <form  class="form">
   <div class="form-row">
   <div class="col">

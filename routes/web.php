@@ -17,13 +17,28 @@
 //     return view('VIEW-NAME-HERE', compact('categories'));
 // });
 
+Route::get('/admin','AdminController@index');
+// admin users routes
+Route::get('/admin/aduser/users','AdminController@test');
+Route::get('/admin/aduser/deleteuser/{id}','AdminController@dltuser');
+Route::get('/admin/aduser/apuser/{id}','AdminController@upuser');
+// admin offers routes
+Route::get('/admin/adoffer/offer','AdminController@adf');
+Route::get('/admin/adoffer/editoffer','AdminController@editoffer');
+Route::get('/admin/adoffer/editoffer/{id}','AdminController@editoffer');
+Route::get('/admin/adoffer/deleteoffer/{id}','AdminController@dltoffer');
+Route::get('/admin/adoffer/apoffer/{id}','AdminController@apoffer');
+
+// filtered
+Route::get('/filterby/bycat/{id}','CategoryController@bycat');
+Route::get('/filterby/bycity/{id}','CityController@bycity');
 
 
-
-
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/admin/aduser/roleuser', function () {
+    return view('admin.aduser.roleuser');
 });
+
+
 Route::get('city', function () {
     return view('city');
 });
@@ -37,7 +52,7 @@ Route::get('service', function () {
     return view('service');
 });
 Auth::routes();
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/', 'HomeController@index')->name('home');
 Route::get('/category','CategoryController@index')->name('category');
 Route::get('/city','CityController@index')->name('city');
 

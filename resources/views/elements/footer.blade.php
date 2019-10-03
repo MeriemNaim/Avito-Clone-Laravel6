@@ -17,25 +17,7 @@
 
     <!-- Grid column -->
     <div class="col-md-2 mb-md-0 mb-3">
-
-      <!-- Links -->
       <h5 class="text-uppercase white">INFORMATIQUE ET MULTIMEDIA</h5>
-
-      <ul class="list-unstyled text-light">
-        <li>
-          <a  class="text-light" href="#!">Link 1</a>
-        </li>
-        <li>
-          <a class="text-light" href="#!">Link 2</a>
-        </li>
-        <li>
-          <a class="text-light" href="#!">Link 3</a>
-        </li>
-        <li>
-          <a  class="text-light" href="#!">Link 4</a>
-        </li>
-      </ul>
-
     </div>
     <!-- Grid column -->
     
@@ -44,7 +26,7 @@
 <!-- Links -->
 <h5 class="text-uppercase white">VEHICULES</h5>
 
-<ul class="list-unstyled text-light">
+<!-- <ul class="list-unstyled text-light">
   <li>
     <a  class="text-light" href="#!">Link 1</a>
   </li>
@@ -57,7 +39,7 @@
   <li>
     <a  class="text-light" href="#!">Link 4</a>
   </li>
-</ul>
+</ul> -->
 
     </div>
     <!-- Grid column -->
@@ -69,7 +51,7 @@
       <!-- Links -->
       <h5 class="text-uppercase white"> IMMOBILIER</h5>
 
-      <ul class="list-unstyled text-light">
+     <!--  <ul class="list-unstyled text-light">
         <li>
           <a  class="text-light" href="#!">Link 1</a>
         </li>
@@ -82,7 +64,7 @@
         <li>
           <a  class="text-light" href="#!">Link 4</a>
         </li>
-      </ul>
+      </ul> -->
 
     </div>
     <!-- Grid column -->
@@ -92,7 +74,7 @@
 <!-- Links -->
 <h5 class="text-uppercase white">POUR LA MAISON ET JARDIN</h5>
 
-<ul class="list-unstyled text-light">
+<!-- <ul class="list-unstyled text-light">
   <li>
     <a  class="text-light" href="#!">Link 1</a>
   </li>
@@ -105,7 +87,7 @@
   <li>
     <a  class="text-light" href="#!">Link 4</a>
   </li>
-</ul>
+</ul> -->
 
 </div>
 <!-- Grid column -->
@@ -115,7 +97,7 @@
 <!-- Links -->
 <h5 class="text-uppercase white">IMMOBILIER NEUF</h5>
 
-<ul class="list-unstyled text-light">
+<!-- <ul class="list-unstyled text-light">
   <li>
     <a  class="text-light" href="#!">Link 1</a>
   </li>
@@ -128,7 +110,7 @@
   <li>
     <a  class="text-light" href="#!">Link 4</a>
   </li>
-</ul>
+</ul> -->
 
 </div>
 <!-- Grid column -->
@@ -138,7 +120,7 @@
 <!-- Links -->
 <h5 class="text-uppercase white">EMPLOI ET SERVICES</h5>
 
-<ul class="list-unstyled text-light">
+<!-- <ul class="list-unstyled text-light">
   <li>
     <a  class="text-light" href="#!">Link 1</a>
   </li>
@@ -151,7 +133,7 @@
   <li>
     <a  class="text-light" href="#!">Link 4</a>
   </li>
-</ul>
+</ul> -->
 
 </div>
 <!-- Grid column -->

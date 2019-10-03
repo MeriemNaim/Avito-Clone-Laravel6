@@ -4,7 +4,9 @@
   <div class="center-block" >
     <a class="btn btn-info m-2" href="{{url('/offers/create')}}">Got an offer</a>
   </div>
+    
 	<div class="row bg-info p-3 m-2 ">
+
     <div class=" p-3 mb-2 bg-dark text-white text-center col">
       
       {{$offer->title}} 
@@ -50,8 +52,6 @@
 
 </div>
 </div>
-
-
 
 	
 
