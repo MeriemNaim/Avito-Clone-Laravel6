@@ -17,123 +17,37 @@
 
     <!-- Grid column -->
     <div class="col-md-2 mb-md-0 mb-3">
-      <h5 class="text-uppercase white">INFORMATIQUE ET MULTIMEDIA</h5>
+      <a class="text-light" href="{{ url('filterby/bycat/1') }}"> <h5>INFORMATIQUE ET MULTIMEDIA</h5></a>
+     
     </div>
     <!-- Grid column -->
     
     <!-- Grid column -->
     <div class="col-md-2 mb-md-0 mb-3">
-<!-- Links -->
-<h5 class="text-uppercase white">VEHICULES</h5>
-
-<!-- <ul class="list-unstyled text-light">
-  <li>
-    <a  class="text-light" href="#!">Link 1</a>
-  </li>
-  <li>
-    <a class="text-light" href="#!">Link 2</a>
-  </li>
-  <li>
-    <a class="text-light" href="#!">Link 3</a>
-  </li>
-  <li>
-    <a  class="text-light" href="#!">Link 4</a>
-  </li>
-</ul> -->
+    <!-- Links -->
+    <a class="text-light" href="{{ url('filterby/bycat/2') }}"> <h5>VEHICULES</h5></a>
 
     </div>
-    <!-- Grid column -->
+    
 
-    <!-- Grid column -->
     <div class="col-md-2 mb-md-0 mb-3">
-
-      <!-- Links -->
-      <!-- Links -->
-      <h5 class="text-uppercase white"> IMMOBILIER</h5>
-
-     <!--  <ul class="list-unstyled text-light">
-        <li>
-          <a  class="text-light" href="#!">Link 1</a>
-        </li>
-        <li>
-          <a class="text-light" href="#!">Link 2</a>
-        </li>
-        <li>
-          <a class="text-light" href="#!">Link 3</a>
-        </li>
-        <li>
-          <a  class="text-light" href="#!">Link 4</a>
-        </li>
-      </ul> -->
-
+<a class="text-light" href="{{ url('filterby/bycat/3') }}"> <h5>IMMOBILIER</h5></a>
     </div>
-    <!-- Grid column -->
-     <!-- Grid column -->
+
      <div class="col-md-2 mb-md-0 mb-3">
+<a class="text-light" href="{{ url('filterby/bycat/4') }}"> <h5>POUR LA MAISON ET JARDIN</h5></a>
 
-<!-- Links -->
-<h5 class="text-uppercase white">POUR LA MAISON ET JARDIN</h5>
+</div>
 
-<!-- <ul class="list-unstyled text-light">
-  <li>
-    <a  class="text-light" href="#!">Link 1</a>
-  </li>
-  <li>
-    <a class="text-light" href="#!">Link 2</a>
-  </li>
-  <li>
-    <a class="text-light" href="#!">Link 3</a>
-  </li>
-  <li>
-    <a  class="text-light" href="#!">Link 4</a>
-  </li>
-</ul> -->
-
+   <div class="col-md-2 mb-md-0 mb-3">
+<a class="text-light" href="{{ url('filterby/bycat/5') }}"> <h5>EMPLOI ET SERVICES</h5></a>
 </div>
 <!-- Grid column -->
    <!-- Grid column -->
    <div class="col-md-2 mb-md-0 mb-3">
 
-<!-- Links -->
-<h5 class="text-uppercase white">IMMOBILIER NEUF</h5>
+<a class="text-light" href="{{ url('filterby/bycat/6') }}"> <h5>IMMOBILIER NEUF</h5></a>
 
-<!-- <ul class="list-unstyled text-light">
-  <li>
-    <a  class="text-light" href="#!">Link 1</a>
-  </li>
-  <li>
-    <a class="text-light" href="#!">Link 2</a>
-  </li>
-  <li>
-    <a class="text-light" href="#!">Link 3</a>
-  </li>
-  <li>
-    <a  class="text-light" href="#!">Link 4</a>
-  </li>
-</ul> -->
-
-</div>
-<!-- Grid column -->
-   <!-- Grid column -->
-   <div class="col-md-2 mb-md-0 mb-3">
-
-<!-- Links -->
-<h5 class="text-uppercase white">EMPLOI ET SERVICES</h5>
-
-<!-- <ul class="list-unstyled text-light">
-  <li>
-    <a  class="text-light" href="#!">Link 1</a>
-  </li>
-  <li>
-    <a class="text-light" href="#!">Link 2</a>
-  </li>
-  <li>
-    <a class="text-light" href="#!">Link 3</a>
-  </li>
-  <li>
-    <a  class="text-light" href="#!">Link 4</a>
-  </li>
-</ul> -->
 
 </div>
 <!-- Grid column -->

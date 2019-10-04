@@ -10,13 +10,13 @@
  
        <div>
           <label >Offer title</label>
-          <input type="text" name="title" placeholder="Ofer Title">
+          <input type="text" name="title" placeholder="Offer Title">
  
       </div>
 
       <div>
             <label >Offre Description</label>
-            <textarea name="description" placeholder="Ofer Description"></textarea>
+            <textarea name="description" placeholder="Offer Description"></textarea>
  
       </div>
 <!-- *******************************category************* -->

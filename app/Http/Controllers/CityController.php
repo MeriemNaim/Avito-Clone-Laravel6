@@ -15,7 +15,8 @@ class CityController extends Controller
         return view('city',['categories'=>$cat],['cities'=>$city]);
     }
     public function bycity($id)
-    { $offer=offer::where('id_city', $id)->firstOrFail();
+
+    { $offer=offer::where('id_city', $id)->get();
     $city=City::where('id', $id)->firstOrFail();
         return view('filterby.bycity',['cities'=>$city],['off'=>$offer]);
     }

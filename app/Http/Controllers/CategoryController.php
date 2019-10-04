@@ -16,7 +16,7 @@ class CategoryController extends Controller
         return view('category',['categories'=>$cat],['cities'=>$city]);
     }
     public function bycat($id)
-    { $offer=offer::where('id_category', $id)->firstOrFail();
+    { $offer=offer::where('id_category', $id)->get();
     $cat=Category::where('id', $id)->firstOrFail();
         return view('filterby.bycat',['categories'=>$cat],['off'=>$offer]);
     }

@@ -40,7 +40,7 @@
 <nav class=" navbar navbar-expand-xl  navbar-dark bg-info">
 <div class="container-fluid">
   <!-- Links -->
-  <a class="navbar-brand" href="{{url('home')}}">AVCLONE</a>
+  <a class="navbar-brand" href="{{url('')}}">AVCLONE</a>
   <button class="  navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<div class="container-fluid bg-img ">
+<div class="container-fluid bg-img">
 @include('elements.search')
 <div class="container text-center p-5  text-white" >
   <h1>WELCOME </h1>

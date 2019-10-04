@@ -3,31 +3,23 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use App\Offer;
 
 class Category extends Model
 
 {  
     public function offer()
     {
-        return $this->hasMany('App\Offer');
+        return $this->hasMany(Offer::class);
     }
 
-/**
-     * 
-     */
+
     public $id;
 
-    /**
-     * 
-     */
+
     public $name_cat;
 
 
-    /**
-     * 
-
-Default constructor
-     */
     public function __construct() {
     }
 

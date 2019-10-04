@@ -9,12 +9,12 @@ use App\City;
 class Offer extends Model
 
 { 
-    public function categories()
+    public function category()
     {
         return $this->belongsTo(Category::class,'id_category');
     }
 
-    public function cities()
+    public function city()
     {
         return $this->belongsTo(City::class,'id_city');
     }

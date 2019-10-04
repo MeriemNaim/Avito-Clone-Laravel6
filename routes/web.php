@@ -53,6 +53,13 @@ Route::get('service', function () {
 });
 Auth::routes();
 Route::get('/', 'HomeController@index')->name('home');
+
+// search
+Route::any('/search', 'HomeController@search');
+Route::get('searchR', function () {
+    return view('searchR');
+});
+
 Route::get('/category','CategoryController@index')->name('category');
 Route::get('/city','CityController@index')->name('city');
 
