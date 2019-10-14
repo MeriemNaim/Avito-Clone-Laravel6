@@ -10,8 +10,11 @@
     <div class=" p-3 mb-2 bg-dark text-white text-center col">
       
       {{$offer->title}} 
+
       
     </div>
+    <h1>{{$city_name}}</h1>
+    <h1>{{$category_name}}</h1>
 <div class=" text-white text-center col-12 p-3 m-2 " >
 <!-- slider -->
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">

@@ -100,7 +100,20 @@ public function dltuser($id)
             return Redirect::back()->with('message','the post is approved!');
 
         }
+        public function adcity()
+    { 
+    $user=User::all();
+    $city=City::all();
+    $offer=Offer::all();
+    return view('admin.adcity.city',['us'=>$user,'off'=>$offer,'cities'=>$city]);
+}
 
+public function adcat()
+    { 
+    
+    $cat=Category::all();
+    return view('admin.adcatgory.cat',['categories'=>$cat]);
+}
 
 
 

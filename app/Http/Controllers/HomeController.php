@@ -27,10 +27,13 @@ class HomeController extends Controller
      */
     public function index()
     { 
-        $cat=Category::all();
-         $city=City::all();
-        return view('home',['categories'=>$cat],['cities'=>$city]);
+       $categories=Category::all();
+         $cities=City::all();
+         $offers=Offer::orderBy('created_at','DESC')->take(3)->get();
+         // dd($offers);
+        return view('home',compact('categories','cities','offers'));
     }
+
     public function search(Request $request)
     { 
         $searchTitle = request('title');

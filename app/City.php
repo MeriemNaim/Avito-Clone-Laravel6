@@ -20,7 +20,7 @@ class City extends Model
     /**
      * 
      */
-    public $name_city;
+    // public $name_city;
 
 
     /**

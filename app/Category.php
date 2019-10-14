@@ -17,7 +17,7 @@ class Category extends Model
     public $id;
 
 
-    public $name_cat;
+    // public $name_cat;
 
 
     public function __construct() {

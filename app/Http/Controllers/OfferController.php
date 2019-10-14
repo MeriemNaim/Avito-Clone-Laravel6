@@ -66,8 +66,11 @@ class OfferController extends Controller
 
 
     public function show($id)
-    {  $offer=Offer::where('id', $id)->firstOrFail();
-        return view('offers.post', ['offer'=> $offer]);
+    {  $offer=Offer::where('id',$id)->firstOrFail();
+    $city_name=$offer->city->name_city;
+    $category_name=$offer->category->name_cat;
+
+        return view('offers.post', compact('offer','city_name','category_name'));
     
     }
 

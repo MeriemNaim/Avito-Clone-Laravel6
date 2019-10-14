@@ -57,12 +57,12 @@
                         </li> -->
                     </ul>
                 </li>
-                <!-- <li>
-                    <a href="#">Portfolio</a>
-                </li> -->
-                <!-- <li>
-                    <a href="#">Contact</a>
-                </li> -->
+                <li>
+                    <a href="{{url('/admin/adcatgory/cat')}}">Category</a>
+                </li>
+                <li>
+                    <a href="{{url('/admin/adcity/city')}}">City</a>
+                </li>
             </ul>
 
             <ul class="list-unstyled CTAs">
