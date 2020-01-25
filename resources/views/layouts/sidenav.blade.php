@@ -86,19 +86,22 @@
                         <i class="fas fa-align-justify"></i>
                     </button>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse text-white" id="navbarSupportedContent">
                         <ul class="nav  navbar-nav ml-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Page</a>
+                                <a class="nav-link" href="{{url('/')}}">Back Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Page</a>
+                                <a class="nav-link" href="{{url('/admin/aduser/users')}}">Users</a>
+                            </li>
+                             <li class="nav-item">
+                                <a class="nav-link" href="{{url('/admin/adoffer/offer')}}">offers</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Page</a>
+                                <a class="nav-link" href="{{url('/admin/adcity/city')}}">Cities</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Page</a>
+                             <li class="nav-item">
+                                <a class="nav-link" href="{{url('/admin/adcatgory/cat')}}">categories</a>
                             </li>
                         </ul>
                     </div>

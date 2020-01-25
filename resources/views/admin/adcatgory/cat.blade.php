@@ -1,8 +1,9 @@
 @extends('layouts.sidenav')
 @section('content')
 <div class="container">
+  <a class="btn btn-info m-2" href="{{url('/admin/adcatgory/addcat')}}">Add new category</a>
 
-  <div class="table-responsive ">
+ <div class="table-responsive ">
   <table class=" table table-striped">
     <thead>
       <tr>

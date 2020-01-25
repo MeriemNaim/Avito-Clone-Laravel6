@@ -1,6 +1,7 @@
 @extends('layouts.sidenav')
 @section('content')
 <div class="container">
+<button class="btn btn-info text-light">Add new city</button>
 
   <div class="table-responsive ">
   <table class=" table table-striped">
@@ -17,9 +18,7 @@
     <tr>
     <th scope="row">{{ $city['id'] }}</th>
     <td>{{ $city['name_city']}}</td>
-    <!-- <td><a href="{{ url ('admin/aduser/deleteuser/'.$city['id'])}}" class="btn btn-danger">delete</a></td>
-    staus/admin or memeber
-    <td><a href="{{ url ('admin/aduser/deleteuser/'.$city['id'])}}" class="btn btn-info">change</a></td> -->
+    <td><a href="{{ url ('admin/aduser/deleteuser/'.$city['id'])}}" class="btn btn-danger">delete</a></td>
     </tr>
 </tbody>
 @endforeach

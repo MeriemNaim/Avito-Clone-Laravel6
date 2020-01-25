@@ -28,8 +28,13 @@ Route::get('/admin/adoffer/editoffer','AdminController@editoffer');
 Route::get('/admin/adoffer/editoffer/{id}','AdminController@editoffer');
 Route::get('/admin/adoffer/deleteoffer/{id}','AdminController@dltoffer');
 Route::get('/admin/adoffer/apoffer/{id}','AdminController@apoffer');
+// AdminCity
 Route::get('/admin/adcity/city','AdminController@adcity');
+// AdminCategory
 Route::get('/admin/adcatgory/cat','AdminController@adcat');
+Route::get('/admin/adcatgory/addcat','AdminController@addcat');
+Route::post('/createcat','AdminController@savecat');
+
 // filtered
 Route::get('/filterby/bycat/{id}','CategoryController@bycat');
 Route::get('/filterby/bycity/{id}','CityController@bycity');

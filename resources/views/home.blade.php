@@ -70,32 +70,27 @@ background: #707070;
 
       <!--Grid column-->
       @foreach ($offers as $offer)
+          @if($offer->is_approved=='1') 
+
       <div class="col-lg-4 col-md-12 mb-4 mask waves-effect waves-light">
         <!--Featured image-->
         <div class="view overlay z-depth-2 mb-2">
 
           <img src="{{ asset('storage/'.$offer->image1)}}" alt="thumbnail" class="img-thumbnail text-center"
-  style="width: 200px">
+  style="width:200px;height:200px">
           <a >
             <div class="mask waves-effect waves-light rgba-white-slight"></div>
           </a>
         </div>
 
         <!--Excerpt-->
-        <a href="" class="text-info">
-          <h6 class="mb-3 mt-4">
-            <i class="fas fa-map "></i>
-            <strong>Adventure</strong>
-          </h6>
-        </a>
         <h4 class="mb-3 font-weight-bold dark-grey-text">
           <strong>{{ $offer->title}}</strong>
         </h4>
-        <p>by
-          <a class="font-weight-bold dark-grey-text">Billy Forester</a>, 15/07/2018</p>
         <p class="grey-text">{!! substr($offer["description"], 0, 140) !!}</p>
         <a class="btn btn-pink btn-rounded btn-md waves-effect waves-light" href="{{ url ('offers/post/'.$offer->id) }}">Read more</a>
       </div>
+      @endif
        @endforeach    
       <!--Grid column-->
     </div>

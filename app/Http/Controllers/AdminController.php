@@ -109,13 +109,24 @@ public function dltuser($id)
 }
 
 public function adcat()
+     { $cat=Category::all();
+        return view('admin.adcatgory.cat',['categories'=>$cat]);
+    }
+public function addcat()
     { 
     
     $cat=Category::all();
-    return view('admin.adcatgory.cat',['categories'=>$cat]);
+    return view('admin.adcatgory.addcat');
 }
 
-
+public function savecat(Request $request)
+    { 
+    $cat= new Category();
+    $cat->name_cat=request('category');
+    $cat->src=request('source');
+    $cat->save();
+    return view('admin.adcatgory.cat');
+}
 
 
 
